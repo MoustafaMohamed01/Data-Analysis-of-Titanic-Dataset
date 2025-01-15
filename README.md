@@ -47,28 +47,6 @@ This project involves a comprehensive analysis of the Titanic dataset to uncover
   - Statsmodels
   - scikit-learn
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/titanic-data-analysis.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd titanic-data-analysis
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-1. Load the Titanic dataset into the `data` folder.
-2. Run the analysis scripts to reproduce the results:
-   ```bash
-   python analysis.py
-   ```
-3. View the visualizations and analysis outputs in the `outputs` folder.
-
 ## Results
 1. **Key Insights:**
    - Survival rates varied significantly by sex and passenger class.
@@ -80,33 +58,11 @@ This project involves a comprehensive analysis of the Titanic dataset to uncover
    - Logistic regression effectively modeled survival probabilities.
    - Ridge and Lasso regressions provided regularized solutions for predicting fares.
 
-## Folder Structure
-```
-├── data
-│   └── Titanic-Dataset.csv
-├── notebooks
-│   ├── eda.ipynb
-│   ├── hypothesis_testing.ipynb
-│   ├── regression_models.ipynb
-├── src
-│   ├── data_preprocessing.py
-│   ├── visualizations.py
-│   ├── hypothesis_tests.py
-│   ├── regression_analysis.py
-├── outputs
-│   ├── plots
-│   ├── summary_statistics.csv
-├── README.md
-├── requirements.txt
-```
 
 ## Contributing
 Contributions are welcome! Please fork the repository, make your changes, and create a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Acknowledgments
-- The dataset was sourced from [source, if known].
-- Inspired by the [course or tutorial name, if applicable].
+- The dataset was sourced from [Kaggle].
+- The dataset link: [https://www.kaggle.com/datasets/yasserh/titanic-dataset].
 
